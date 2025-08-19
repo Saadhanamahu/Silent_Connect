@@ -1,0 +1,41 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Page</title>
+    <style>
+        .video-container {
+            margin: 20px auto;
+            width: 80%;
+            text-align: center;
+        }
+
+        video {
+            max-width: 100%;
+            border: 1px solid #ccc;
+        }
+    </style>
+</head>
+<body>
+    <h1>TEST PAGE</h1>
+    <div class="video-container">
+        <video id="camera" autoplay></video>
+    </div>
+    <script>
+        async function startCamera() {
+            try {
+                const stream = await navigator.mediaDevices.getUserMedia({ video: true });
+                const video = document.getElementById('camera');
+                video.srcObject = stream;
+            } catch (err) {
+                console.error("Error accessing camera: ", err);
+                alert("Unable to access the camera.");
+            }
+        }
+
+        startCamera();
+    </script>
+</body>
+</html>

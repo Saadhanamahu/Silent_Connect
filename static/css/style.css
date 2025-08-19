@@ -1,0 +1,149 @@
+
+body {
+    font-family: 'Spinnaker', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+section {
+    height: 100vh; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+header {
+    text-align: left;
+    padding: 20px;
+    background-color: #5f4432; 
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    min-height: 100vh; 
+  }
+
+.header-logo {
+    position: absolute;
+    top: 20px;
+    right: 20px;  
+    width: 100px;  
+    height: auto;  
+}
+
+button {
+    font-size: 1em; 
+    padding: 8px 16px; 
+    border: none;
+    border-radius: 4px; 
+    cursor: pointer;
+    transition: background-color 0.3s ease; 
+}
+
+
+.intro {
+    text-align: left;
+    background-color: #5f4432; 
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+
+.main-title {
+    font-size: 10em;
+    font-weight: bold;
+    margin: 0;
+    color: #dedfd3; 
+}
+
+.intro-text {
+    font-size: 1.2em;
+    color: #dedfd3;
+    margin-top: 10px;
+}
+
+.learn {
+    text-align: right;
+    background-color: #dedfd3;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); 
+}
+
+.learn-title {
+    font-size: 6em;
+    font-weight: bold;
+    color: #5f4432; 
+}
+
+.learn p {
+    font-size: 1.1em;
+    color: #5f4432;
+}
+.learn button {
+    background-color: #5f4432; 
+    color: #dedfd3; 
+}
+
+.learn button:hover {
+    background-color: #4b3526; 
+}
+
+
+.practice {
+    text-align: left;
+    background-color: #5f4432; 
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); 
+}
+
+.practice-title {
+    font-size: 6em;
+    font-weight: bold;
+    color: #dedfd3; 
+}
+
+.practice p {
+    font-size: 1.1em;
+    color: #dedfd3; 
+}
+
+.practice button {
+    background-color: #dedfd3;
+    color: #5f4432;
+}
+
+.practice button:hover {
+    background-color: #c6c7b8; 
+}
+
+.testing {
+    text-align: right;
+    background-color: #dedfd3;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); 
+}
+
+.testing-title {
+    font-size: 6em;
+    font-weight: bold;
+    color: #5f4432; 
+}
+
+.testing p {
+    font-size: 1.1em;
+    color: #5f4432;
+}
+.testing button {
+    background-color: #5f4432; 
+    color: #dedfd3; 
+}
+
+.testing button:hover {
+    background-color: #4b3526; 
+}
+
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+}
